@@ -73,5 +73,4 @@ fetchStoryOrDefectInfo = function(urlIdentifier, number, conversation) {
   serviceCall.setRequestHeader("Authorization", "Bearer " + apiAuthToken);
   serviceCall.setRequestHeader("Accept", "application/json");
   serviceCall.send();
-  console.log(urlIdentifier + " " + number);
 }
