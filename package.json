@@ -1,0 +1,17 @@
+{
+  "name": "version-one-slack-bot",
+  "version": "0.1.0",
+  "description": "Version One Slack Bot",
+  "main": "bot.js",
+  "dependencies": {
+    "botkit": "^0.1.1",
+    "xmlhttprequest": "^1.8.0",
+    "string.prototype.startswith": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Thornton",
+  "license": "ISC"
+}
